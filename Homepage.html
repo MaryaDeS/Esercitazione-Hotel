@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Bellevue Syrene Luxury Hotel in Sorrento: HomePage</title>
+    <link href="Hotel.css" rel="stylesheet" />
+    <script src="Hotel.js"></script>
+
+
+</head>
+
+<body onload="welcome(); checkLoggedUser()" >
+    <header>
+        <img id="logo" src="Immagini/logoMobile.png" width="150" height="70" />
+        <h1>Bellevue Syrene Luxury Hotel</h1>
+
+        <marquee>Come and discover the magic of the Sorrento coast and relax in our luxurious suites </marquee>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="Contatti.html">Contacts</a></li>
+            <li><a href="Camere.html">Suites</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <img src="Immagini/bellevue_syrene_out.png" width="300" height="150" />
+
+        <div class="presentazione">
+            <img src="Immagini/BellevueInside.png" width="700" height="450" />
+
+            <p>
+                We want our guests
+                to feel at home
+                even at hundreds
+                of miles away.
+
+                <br /><br />
+
+                A place of culture, art, food and wine excellences, charming colours and fragrances, a land to live and discover.
+
+                <br /><br />
+
+                Sorrento rises on the southern extremity of the Gulf of Naples and gives its name to the splendid coast that has made visitors from all over the world fall in love.
+                From Sorrento are easily reachable all the major interest historical and archaeological locations of the Napoli province.
+
+
+            </p>
+
+        </div>
+
+        <button id="openLoginForm" onclick="openForm()">Effettua il login</button>
+
+        <div id="myForm">
+            <form onsubmit="save();">
+                <h1>Login</h1>
+
+                <label for="username"><b>Username</b></label>
+                <input id="usernameInput" type="text" placeholder="Username" name="username" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input id="passwordInput" type="password" placeholder="Password" name="psw" required>
+
+                <button type="submit" class="btn">Login</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Chiudi</button>
+            </form>
+        </div>
+
+        <button id="LogOut">Log Out</button>
+
+        <button onclick="clearLS()">Esci</button>
+
+
+
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; Bellevue Syrene Luxury Hotel in Sorrento 2021| <a target="_blank" href="https://www.instagram.com/BellevueSyreneHotel/">Instagram</a>
+            <a target="_blank" href="https://www.facebook.com/BellevueSyreneHotel/">Facebook</a>
+        </p>
+    </footer>
+
+
+
+</body>
+</html>

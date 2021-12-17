@@ -1,0 +1,126 @@
+﻿body {
+    background-color:antiquewhite;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+}
+
+header {
+    position: relative;
+    bottom: 10px;
+}
+
+#logo + h1 {
+    display: inline;
+    text-align: center;
+}
+
+h1{
+    font-family: Ebrima;
+    color: darkgoldenrod;
+    margin-left: 8px;
+    font-size: 30pt;
+    position:relative;
+    text-align:center;
+    
+    
+}
+
+marquee {
+    font-family: Ebrima;
+    color: rgb(20, 6, 144);
+    margin-left: 8px;
+    font-size: 15pt;
+}
+
+ul {
+    list-style-type: none;
+    text-align:center;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-left: 8px;
+    overflow: hidden; 
+    
+}
+
+li a, .bookingbutton {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: bisque;
+    text-decoration: none;
+    font-family: Ebrima;
+}
+
+    li a:link {
+        color: rgb(20, 6, 144);
+    }
+
+    li a:visited {
+        color: brown;
+    }
+
+    li a:hover {
+        background-color: lightgrey;
+        color: blue;
+    }
+
+
+
+#pres {
+    float: left;
+    margin-right: 10px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+p {
+    font-family: Ebrima;
+    font-size: 16px;
+    padding: 10px;
+    text-align: justify;
+    color: mediumblue;
+}
+
+
+
+footer {
+    clear: both;
+    margin-left: -8px;
+    margin-right: -8px;
+    text-align: center;
+    color: rgb(208, 162, 67);
+    background-color: bisque;
+    position: relative;
+    top: 50px;
+}
+
+.container {
+    max-width: 100%;
+}
+
+
+table{
+    border-block:double;
+    background-color: blanchedalmond;
+    font-family:Ebrima;
+    width:100%;
+}
+
+table thead{
+    background-color:burlywood;
+    color: burlywood;
+}
+
+table tr{
+    text-align:center;
+}
+
+#LogOut{
+    display: none;
+}
+
+#myForm{
+    display:none;
+
+}
